@@ -6,9 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300' rel='stylesheet' type='text/css'>
   </head>
 
-  <body>
+  <body class="body">
+     <!-- side bar -->
+     <div class="sideBar">
+     <div class="arrowButton">
+      <img class="arrow" src="../assets/icon/arrow.png" alt="">
+    </div>
+      <ul style="display: flex; justify-content: space-between; width: 400px; align-items: end; list-style: none; color: #ffffff; font-size: 35px;  ">
+        <li style="transition: 0.5s; font-weight: bold;">company intro</li>
+        <li style="transition: 0.5s; font-weight: bold;">contact us</li>
+      </ul>
+     </div>
+    <!-- side menu -->
+    <div class="sideMenu" >
+      <section class="sideMenu-main">
+        <a class="works" href="works"><div style=" font-size: 100px;">works</div><p style="font-size: 20px;  margin-top: 20px;">149</p></a href="works">
+        <a class="about" href=" ">about</a>
+        <a class="topic" href="topic">topic</a>
+        <a class="contact" href="contuct_us">contact us</a> 
+      </section>
+      <section class="sideMenufooter">
+        <div class="intro"><img src="../assets/icon/download.png" alt="">  conpany intro</div>
+        <div class="master"> <img src="../assets/icon/email.png" alt=""> webmaster@mvint.co.kr</div>
+      </section>
+    </div>
+
+<!-- header -->
     <header
       style="
         position: fixed;
@@ -26,13 +52,31 @@
           align-items: center;
         "
       >
-        <a href="/" style="font-size: 32px; text-decoration: none; color: white"
+        <a href="/pages/" style="font-size: 32px; text-decoration: none; color: white"
           >magnumvint</a
         >
-        <img style="height: 64px" src="../assets/icon/burgerMenu.png" alt="" />
+        <div>
+          <div class="nav-container">
+            <div class="toggle-icon">
+              <script src="../assets/js/menu.js"></script>
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <div class="navContainer"></div>
+            </div><!-- /toggle-icon -->
+           
+             
+          </div><!-- /nav-container -->
+         
+        </div>
+       
       </div>
+   
+     
     </header>
-
+ 
+   
+   
     <div
       class="wrapper"
       style="
@@ -473,6 +517,44 @@
         </h1>
       </section>
     </div>
+    <!-- Contact us -->
+   <div class="contac-container">
+    <div class="contactUs">
+      <div class="contactMain">
+       <h1 class="contactMain-mail"> <div style="display: flex;">Feel free to <div style="color: #f12535; margin:0 20px;"> mail</div>  us</div>
+        for any digital project
+        or information 
+        <button>R 
+          <i class="fa fa-long-arrow-right arrow1" aria-hidden="true"></i>
+        </button>
+      </h1>   
+           
+      </div>
+     <div class="contactUs-footer-container">
+      <div class="contactUs-footer">
+        <section class="footer-one">
+          <h1 class="footer-title">Topic</h1>
+          <a class="a-tag" href="news">news</a>
+          <a class="a-tag" href="">culture</a>
+        </section>
+        <section> 
+          <h1 class="footer-title">Inquiry</h1>
+          <p class="a-tag">02. 568. 1987</p>
+          <a class="a-tag" href="webmaster@mvintco.kr">webmaster@mvintco.kr</a></section>
+          <section>
+            <h1 class="footer-title">Office</h1>
+            <p class="a-tag">  서울 강남구 강남대로 132길 </p>
+            <p class="a-tag">55 MV타워</p>
+          </section>
+        
+
+      </div>
+     </div>
+    </div>
+   </div>
+   
     <script src="../assets/js/scroll.js"></script>
+
+   
   </body>
 </html>

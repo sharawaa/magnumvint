@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 h1,
 h2,
 h3,
@@ -5,10 +7,10 @@ h4,
 h5,
 h6,
 p,
-a {
+a,button {
   margin: 0;
   padding: 0;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -17,7 +19,257 @@ a {
 }
 body {
   margin: 0;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/* side menu */
+
+
+.sideBar{
+position: fixed;
+display: flex;
+ rotate: -90deg;
+  width: 500px;
+  margin-top: 500px;
+  height: 100px;
+  justify-content: space-around;
+  margin-left: 80%;
+}
+.arrow{
+  rotate: 90deg;
+  animation: 2s;
+}
+.activeArrow{
+  rotate: 270deg;
+  animation: 2s;
+}
+
+/* nav container  */
+.sideMenu{
+  display: none;
+}
+.active{
+  overflow: hidden;
+}
+.active .sideMenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  width: 100%;
+  height: 100vh;
+  background-color: #1a1818;
+  transition: 1s;
+  position: absolute;
+  text-align: left;
+}
+.sideMenu-main{
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  width: 40%;
+  
+}
+.works{
+  display: flex;
+  color: #ffffff;
+  transition: 1s;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.1s;
+}
+.about{
+  color: #ffffff;
+  font-size: 100px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.1s;
+}
+.works:hover{
+  color: #f12535;
+
+}
+.topic:hover{
+  color: #f12535;
+
+}
+.contact:hover{
+  color: #f12535;
+
+}
+.about:hover{
+  color: #f12535;
+
+}
+
+.topic{
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 100px;
+  text-decoration: none;
+  transition: 0.1s;
+}
+.contact{
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 100px;
+  text-decoration: none;
+  transition: 0.1s;
+}
+.sideMenufooter{
+  text-align: left;
+  width: 40%;
+}
+.intro{
+  color: #ffffff;
+  font-size: 30px;
+}
+.master{
+  color: #ffffff;
+  font-size: 30px;
+
+}
+/* burger menu */
+
+
+
+/*toggle-icon*/
+.toggle-icon {
+	display: block;
+	position: relative;
+	width: 100%;
+	margin: -2.2em auto 0 0.2em;
+	-webkit-transition: margin 600ms;
+	-moz-transition: margin 600ms;
+	transition: margin 600ms;
+	cursor: pointer;
+}
+
+.toggle-icon .bar {
+	display: block;
+	width: 3.8em;
+	height: 0.2em;
+	margin: 0.9em;
+	border-right: 2.8em solid #fff;
+	border-left: 0.6em solid #d6d6d6;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	-webkit-transition-property: -webkit-transform, margin, border-right-color, box-shadow;
+	-moz-transition-property: -moz-transform, margin, border-right-color, box-shadow;
+	transition-property: transform, margin, border-right-color, box-shadow;
+	-webkit-transition-duration: 600ms;
+	-moz-transition-duration: 600ms;
+	transition-duration: 600ms;
+}
+	.toggle-icon .bar:nth-of-type(1) {
+		-webkit-transition: opacity 300ms;
+		-moz-transition: opacity 300ms;
+		transition: opacity 300ms;
+	}
+	.toggle-icon .bar:nth-of-type(2) {
+		-webkit-transform: rotate(-180deg);
+		-moz-transform: rotate(-180deg);
+		-ms-transform: rotate(-180deg);
+		-o-transform: rotate(-180deg);
+		transform: rotate(-180deg);
+	}
+
+/*pushed*/
+.pushed .toggle-icon {
+	margin: -3.2em 0 0 0.7em;
+  z-index: 10;
+}
+
+	.pushed .bar:nth-of-type(1) {
+		opacity: 0;
+	}
+
+	.pushed .bar:nth-of-type(2) {
+		margin-left: 1.4em;
+		-webkit-transform: rotate(-137deg) translateY(-1.5em);
+		-moz-transform: rotate(-137deg) translateY(-1.5em);
+		-ms-transform: rotate(-137deg) translateY(-1.5em);
+		-o-transform: rotate(-137deg) translateY(-1.5em);
+		transform: rotate(-137deg) translateY(-1.5em);
+	}
+
+	.pushed .bar:nth-of-type(3) {
+		margin-left: 0.5em;
+		-webkit-transform: rotate(-42deg);
+		-moz-transform: rotate(-42deg);
+		-ms-transform: rotate(-42deg);
+		-o-transform: rotate(-42deg);
+		transform: rotate(-42deg);
+	}
+
+
+.pushed .toggle-icon:hover .bar:nth-of-type(2) {
+	border-right-color: #e9b8b9;
+	box-shadow: 0.4em 0 0.6em 0.1em rgba(205,40,44,0.75);
+}
+.pushed .toggle-icon:hover .bar:nth-of-type(3) {
+	border-right-color: #ddf1da;
+	box-shadow: 0.4em 0 0.6em 0.1em rgba(83,228,68,0.65);
+}
+.pushed .wrapper{
+  background-color: black;
+}
+/* contact Us */
+.contac-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-color: #1a1818;
+  align-items: center;
+}
+.contactUs{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60vh;
+  width: 80%;
+  color:#d6d6d6;
+  position: absolute;
+  z-index: 1;
+}
+.contactMain{
+  width: 65%;
+  
+}
+
+.contactMain-mail{
+font-size: 110px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.contactMain-button{height: 80px; width: 80px; border-radius: 50%; border: none ; padding: 0; margin-top: 30px; margin-left: 20px; background-color: #f12535;position: absolute}
+.contactUs-footer-container{
+  width: 80%;
+  display: flex;
+  justify-content: end;
+}
+.contactUs-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+ 
+  
+}
+.footer-one{
+  display: flex;
+  flex-direction: column;
+}
+.a-tag{
+  color: #ffffff;
+}
+.footer-title{
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+/* main */
 .wrapper {
   height: 100vh;
   overflow-y: auto;
@@ -55,4 +307,43 @@ body {
   width: 100%;
   scroll-behavior: auto;
   position: fixed;
+}
+
+ul li:hover{
+  color: #f12535;
+  transition: 0.1s;
+}
+/* ------------------------- footer animation button-------------------------------- */
+
+button {
+  border: none;
+  background: #f12535;
+  width: 50px;
+  height: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  color: blue;
+  transition: slide1  0.5s ease;
+}
+
+
+i {
+  color: blue;
+  margin-left: 20px;
+}
+
+@keyframes slide1 {
+  0%,
+  100% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(10px, 0);
+  }
+  
+}
+.arrow1 {
+  animation:  1s ease-in-out infinite;
+  margin-left: 9px;
 }
