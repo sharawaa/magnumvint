@@ -14,13 +14,13 @@ arrowButton.addEventListener("click", () => {
   var currentY = window.scrollY;
   console.log(currentY);
 
-  if (currentY >= 0 && currentY < 900) {
+  if (currentY >= 0 && currentY < 800) {
   
     window.scrollTo({
       top: currentY + targetY,
       behavior: "smooth" 
     });
-  } else if (currentY >= 900) {
+  } else if (currentY >= 800) {
   
     window.scrollTo({
       top: currentY - targetY,

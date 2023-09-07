@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../assets/css/main.css" />
     <link href='https://fonts.googleapis.com/css?family=Source+Code+Pro:200,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="../assets/css/media.css">
   </head>
 
   <body class="body">
@@ -23,7 +24,7 @@
     <!-- side menu -->
     <div class="sideMenu" >
       <section class="sideMenu-main">
-        <a class="works" href="works"><div style=" font-size: 100px;">works</div><p style="font-size: 20px;  margin-top: 20px;">149</p></a href="works">
+        <a class="works" href="works"><div class="works">works</div><p style="font-size: 20px;  margin-top: 20px;">149</p></a href="works">
         <a class="about" href=" ">about</a>
         <a class="topic" href="topic">topic</a>
         <a class="contact" href="contuct_us">contact us</a> 
@@ -41,7 +42,9 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        height: 100px;
+        align-items: center;
+        height: 180px;
+        
       "
     >
       <div
@@ -50,10 +53,11 @@
           display: flex;
           justify-content: space-between;
           align-items: center;
+         
         "
       >
-        <a href="/pages/" style="font-size: 32px; text-decoration: none; color: white"
-          >magnumvint</a
+        <a href="/pages/" style="font-size: 24px; display: flex;  gap: 5px; align-items: center; text-decoration: none; color: white"
+          ><img src="../assets/icon/magnum_logo (1).png" alt=""> <p class="magnumvint">magnumvint</p></a
         >
         <div>
           <div class="nav-container">
@@ -66,28 +70,23 @@
             </div><!-- /toggle-icon -->
            
              
-          </div><!-- /nav-container -->
-         
-        </div>
-       
+          </div><!-- /nav-container -->         
+        </div> 
       </div>
-   
-     
     </header>
- 
-   
-   
+<!-- main -->
     <div
       class="wrapper"
       style="
         background-image: url(https://www.magnumvint.com/upload/homepage/portfolio/1643182678807.jpg);
       "
     >
-      <!-- child 1 -->
 
+    <div class="content-container">
       <section class="content">
+              <!-- child 1 -->
         <p
-          class="unActive-p"
+          class="unActive-p-s"
           style="
             font-size: 32px;
             font-weight: bold;
@@ -98,7 +97,7 @@
           15
         </p>
         <h1
-          class="unActive--h1"
+          class="unActive-h1-s"
           style="
             font-size: 100px;
             color: transparent;
@@ -495,7 +494,7 @@
       </section>
       <section class="content">
         <p
-          class="unActive--p"
+          class="unActive-p-l"
           style="
             font-size: 32px;
             font-weight: bold;
@@ -506,7 +505,7 @@
           02
         </p>
         <h1
-          class="unActive--h1"
+          class="unActive-h1-l"
           style="
             font-size: 100px;
             color: transparent;
@@ -517,15 +516,15 @@
         </h1>
       </section>
     </div>
+    </div>
     <!-- Contact us -->
    <div class="contac-container">
     <div class="contactUs">
       <div class="contactMain">
-       <h1 class="contactMain-mail"> <div style="display: flex;">Feel free to <div style="color: #f12535; margin:0 20px;"> mail</div>  us</div>
+       <h1 class="contactMain-mail"> <div style="display: flex;">Feel free to <div style="color: #f12535; margin:0 10px;"> mail</div>  us</div>
         for any digital project
         or information 
-        <button>R 
-          <i class="fa fa-long-arrow-right arrow1" aria-hidden="true"></i>
+        <button class="footerButton">
         </button>
       </h1>   
            
@@ -534,17 +533,24 @@
       <div class="contactUs-footer">
         <section class="footer-one">
           <h1 class="footer-title">Topic</h1>
-          <a class="a-tag" href="news">news</a>
-          <a class="a-tag" href="">culture</a>
+          <div class="topic-child">
+            <a class="a-tag" href="news">news</a>
+             <a class="a-tag" href="">culture</a>
+          </div>
         </section>
         <section> 
           <h1 class="footer-title">Inquiry</h1>
+         <div class="inquiry-child">
           <p class="a-tag">02. 568. 1987</p>
-          <a class="a-tag" href="webmaster@mvintco.kr">webmaster@mvintco.kr</a></section>
+          <a class="a-tag" href="webmaster@mvintco.kr">webmaster@mvintco.kr</a>
+         </div>
+        </section>
           <section>
             <h1 class="footer-title">Office</h1>
+           <div class="office-child">
             <p class="a-tag">  서울 강남구 강남대로 132길 </p>
             <p class="a-tag">55 MV타워</p>
+           </div>
           </section>
         
 

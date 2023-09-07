@@ -1,0 +1,193 @@
+@media screen and (max-width:483px) {
+ .unActive-p-s{
+    font-size: 16px !important;
+   
+ }
+ .content-1{
+    margin-top: 200px;
+ }
+ .unActive-h1-s{
+    font-size:36px !important
+ }
+ .unActive-1-p{
+    font-size: 16px !important
+ }
+ .unActive-1-h1{
+    font-size:36px !important
+ }
+ .unActive-2-p{
+    font-size: 16px !important
+ }
+ .unActive-2-h1{
+    font-size:36px !important
+ }
+ .unActive-3-p{
+    font-size: 16px !important
+ }
+ .unActive-3-h1{
+    font-size:36px !important
+ }
+ .unActive-4-p{
+    font-size: 16px !important
+ }
+ .unActive-4-h1{
+    font-size:36px !important
+ }
+ .unActive-5-p{
+    font-size: 16px !important
+ }
+ .unActive-5-h1{
+    font-size:36px !important
+ }
+ .unActive-6-p{
+    font-size: 16px !important
+ }
+ .unActive-6-h1{
+    font-size:36px !important
+ }
+ .unActive-7-p{
+    font-size: 16px !important
+ }
+ .unActive-8-h1{
+    font-size:36px !important
+ }
+ .unActive-8-p{
+    font-size: 16px !important
+ }
+ .unActive-7-h1{
+    font-size:36px !important
+ }
+ .unActive-9-p{
+    font-size: 16px !important
+ }
+ .unActive-9-h1{
+    font-size:36px !important
+ }
+ .unActive-10-p{
+    font-size: 16px !important
+ }
+ .unActive-10-h1{
+    font-size:36px !important
+ }
+ .unActive-11-p{
+    font-size: 16px !important
+ }
+ .unActive-11-h1{
+    font-size:36px !important
+ }
+ .unActive-12-p{
+    font-size: 16px !important
+ }
+ .unActive-12-h1{
+    font-size:36px !important
+ }
+ .unActive-13-p{
+    font-size: 16px !important
+ }
+ .unActive-13-h1{
+    font-size:36px !important
+ }
+ .unActive-14-p{
+    font-size: 16px !important
+ }
+ .unActive-14-h1{
+    font-size:36px !important
+ }
+ .unActive-15-p{
+    font-size:16px !important
+ }
+ .unActive-15-h1{
+    font-size:36px !important
+ }
+ .unActive-16-p{
+    font-size:16px !important
+ }
+ .unActive-16-h1{
+    font-size:36px !important
+ }
+ .unActive-h1-l{
+    font-size:36px !important
+ }
+ .unActive-p-l{
+    font-size: 16px !important
+ }
+ .contactMain-mail{font-size: 26px;}
+ .footer-title{font-size: 26px; margin:10px 0;}
+ .contactUs-footer{
+    flex-direction: column;
+    width: 100%;
+ }
+ .contactMain{width: 100%;}
+ .toggl-icon{width: 0px; height: 10px;}
+ .content{flex-direction: column; height: 33vh; width: 90%;}
+ .content-container{
+    height: 50vh;
+
+ }
+ /* header  */
+ .magnumvint{
+   display: none;
+ }
+
+
+ /* SIDE MENU */
+ .works{
+    font-size: 40px;
+ }
+ .about{
+    font-size: 40px;
+ }
+ .topic{
+    font-size: 40px;
+ }
+ .contact{
+    font-size: 40px;
+ }
+ .sideMenu-main{
+    width: 90%;
+ }
+ .sideMenufooter{
+    width: 90%;
+ }
+ .contactUs{width: 90%;}
+ .office-child{
+    display: flex;
+    gap: 10px;
+ }
+ .contactUs-footer-container{width: 90%;}
+ .inquiry-child{display: flex; gap: 10px;}
+ .topic-child{
+    flex-direction: row;
+    gap: 10px;
+ }
+ .contactUs-footer{
+    height: 30vh;
+ }
+
+
+ .content-container{
+   height: 60vh;
+   overflow-y: auto;
+   scroll-snap-type: y mandatory;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   background-size: 100%;
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   transition: 2s;
+   animation-name: inherit;
+   animation-direction: alternate-reverse;
+   animation-fill-mode: forwards;
+   animation-duration: 10s;
+   animation-iteration-count: infinite;
+   animation-play-state: running;
+   animation-timing-function: ease-in-out;
+   margin-top: 150px;
+ }
+.sideBar{
+   margin-left: 40%;
+}
+}

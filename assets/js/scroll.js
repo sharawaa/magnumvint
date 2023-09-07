@@ -87,7 +87,7 @@ wrapper.addEventListener("scroll", () => {
     active_4_h1.style.color = "transparent";
   }
   //   6
-  if (scrollY > 1360.5) {
+  if (scrollY > 1340.5) {
     wrapper.style.backgroundImage =
       "url(https://www.magnumvint.com/upload/homepage/portfolio/1647958034368.jpg)";
     active_5_p.style.color = "transparent";
@@ -98,7 +98,7 @@ wrapper.addEventListener("scroll", () => {
     active_7_h1.style.color = "transparent";
   }
   //   7
-  if (scrollY > 2025.5) {
+  if (scrollY > 1705.5) {
     wrapper.style.backgroundImage =
       "url(https://www.magnumvint.com/upload/homepage/portfolio/1648447508528.jpg)";
     active_6_p.style.color = "transparent";
@@ -165,7 +165,7 @@ wrapper.addEventListener("scroll", () => {
     active_13_h1.style.color = "transparent";
   }
   //   13
-  if (scrollY > 3925) {
+  if (scrollY > 3725) {
     wrapper.style.backgroundImage =
       "url(https://www.magnumvint.com/upload/homepage/portfolio/1657675897228.jpg)";
     active_12_p.style.color = "transparent";
@@ -187,7 +187,7 @@ wrapper.addEventListener("scroll", () => {
     active_15_h1.style.color = "transparent";
   }
   //   15
-  if (scrollY > 4730) {
+  if (scrollY > 4330) {
     wrapper.style.backgroundImage =
       "url(https://www.magnumvint.com/upload/homepage/portfolio/1664513507687.jpg)";
     active_14_p.style.color = "transparent";
@@ -198,7 +198,7 @@ wrapper.addEventListener("scroll", () => {
     active_16_h1.style.color = "transparent";
   }
   //   1
-  if (scrollY > 5071.5) {
+  if (scrollY > 4571.5) {
     wrapper.style.backgroundImage =
       "url(https://www.magnumvint.com/upload/homepage/portfolio/1643182678807.jpg)";
     active_15_p.style.color = "transparent";
